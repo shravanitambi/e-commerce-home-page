@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        e-commerce homepage
+    </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="head.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <head id="head">
+        <div id="start">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. molestiae veritatis, cum rem!
+        </div>
+        <br>
+        <div id="head-logo">
+            <span id="search">
+                <form>
+                    <button type="submit">
+                    <i class="fa fa-search"></i>
+                </button>
+                    <input type="text" placeholder="Search">
+                </form>
+            </span>
+            <span id="header_logo">
+                
+            </span>
+            <span id="cart">
+                <img src="img/cart1.png" alt="" height="42px" width="42px" style="border: none;">
+                <img src="img/heart.png" alt="" height="42px" width="42px" style="border: none;">
+                <img src="img/sign.png" alt="" height="42px" width="42px" style="border: none;">
+                Signup/login
+            </span>
+        </div>
+        <br>
+        <div id="nav_bar">
+            <a>Mens</a>
+            <a>Womens</a>
+            <a>Kids</a>
+            <a>Accessories</a>
+            <a>Footwear</a>
+            <a>Brands</a>
+            <a>Sale</a>
+
+        </div>
+        <br>
+    </head>
+
+    <div class="w3-content w3-display-container">
+    <img class="mySlides" src="img/9.png" style="width:100%">
+    <img class="mySlides" src="img/9.png" style="width:100%">
+    <img class="mySlides" src="img/9.png" style="width:100%">
+    <img class="mySlides" src="img/9.png" style="width:100%">
+  
+    <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+    <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+  </div>
+
+  <script>
+    var slideIndex = 1;
+    showDivs(slideIndex);
+    
+    function plusDivs(n) {
+      showDivs(slideIndex += n);
+    }
+    
+    function showDivs(n) {
+      var i;
+      var x = document.getElementsByClassName("mySlides");
+      if (n > x.length) {slideIndex = 1}
+      if (n < 1) {slideIndex = x.length}
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";  
+      }
+      x[slideIndex-1].style.display = "block";  
+    }
+    </script>
+    <br>
+    <div id="img10">
+
+        <img src="img/10.png" alt="" width="80%">
+    </div>
+    <br>
+    <h2>SEASONS MUST HAVE</h2>
+    <br>
+    <div id="seasons_must_have">
+        <span><img src="img/1.png" alt="" width="350px" height="350px"></span>
+        <span><img src="img/2.png" alt="" width="350px" height="350px"></span>
+        <span><img src="img/3.png" alt="" width="350px" height="350px"></span>
+    </div>
+    <br>
+    <h2>WHATS HOT RIGHT NOW</h2>
+    <br>
+    <div id="whats_hot">
+        <div class="w_img">
+            <span class="centre_align"><img src="img/im1.png" alt="" width="250px" height="250px">
+                <br>JACKETS</span>
+            <span class="centre_align"><img src="img/im2.png" alt="" width="250px" height="250px">
+                <br>SHIRTS</span>
+            <span class="centre_align"><img src="img/im3.png" alt="" width="250px" height="250px">
+                <br>T-SHIRTS</span>
+            <span class="centre_align"><img src="img/im4.png" alt="" width="250px" height="250px">
+                <br>BELTS</span>
+        </div>
+        <br>
+        <div class="w_img">
+            <span class="centre_align"><img src="img/im5.png" alt="" width="250px" height="250px">
+                <br>DRESSES</span>
+            <span class="centre_align"><img src="img/im6.png" alt="" width="250px" height="250px">
+                <br>KURTAS</span>
+            <span class="centre_align"><img src="img/im7.png" alt="" width="250px" height="250px">
+                <br>HANDBACKS</span>
+            <span class="centre_align"><img src="img/im8.png" alt="" width="250px" height="250px">
+                <br>FOOTWEAR</span>
+        </div>
+    </div>
+    <br>
+    <div id="img12">
+
+        <img src="img/12.png" alt="" width="80%">
+    </div>
+    <br>
+    <div id="rewards">
+        <img src="img/rewards.png" alt="" width="80%">
+    </div>
+    <br>
+    <br>
+
+    <h2>OFFERS OF THE WEEK</h2>
+    <br>
+    <div id="offers_of_week">
+        <span><img src="img/of1.png" alt="" width="" height=""><br><div class="of_week">Min. 50% off<br>Womens kurta</div></span>
+        <span><img src="img/of2.png" alt="" width="" height=""><br><div class="of_week">Up to 80% off<br>Mens jackets</div></span>
+        <span><img src="img/of3.png" alt="" width="" height=""><br><div class="of_week">Upto 70% off<br>Shoes</div></span>
+        <span><img src="img/of4.png" alt="" width="" height=""><br><div class="of_week">Buy 1 get 1 free<br>Earrings</div></span>
+    </div>
+    <br>
+   <div class="p-view">
+    <button class="view">View All</button>
+   </div>
+   <br>
+   <div id="img12">
+
+    <img src="img/13.png" alt="" width="80%">
+</div>
+<br>
+<h2>PRICE STORE</h2>
+<br>
+<div id="price">
+    <span class="cont"><img src="img/background.png" alt=""> 
+        <div class="centered">
+            <br><br>
+           <b> <h2>UNDER</h2></b><em style="color: #0077B6; font-size: 50px;">499</em> <br> <b style="font-size: xx-large;">store</b>
+        </div>
+    </span>
+    <span class="cont"><img src="img/background.png" alt=""> 
+        <div class="centered">
+            <br><br>
+            <h2>UNDER</h2><em style="color: #0077B6; font-size: 50px;">999</em> <br> <b style="font-size: xx-large;">store</b>
+        </div>
+    </span>
+    <span class="cont"><img src="img/background.png" alt=""> 
+        <div class="centered">
+            <br><br>
+            <h2>UNDER</h2><em style="color: #0077B6; font-size: 50px;">999</em> <br> <b style="font-size: xx-large;">store</b>
+         </div>   
+    </span>
+</div>
+<br>
+   <div class="p-view">
+    <button class="view">View All</button>
+   </div>
+   <br>
+   <br>
+   <div id="shop_by_category">
+    <h2>SHOP BY CATEGORY</h2>
+    <div id="shop1">
+        <button>T-SHIRTS</button>
+        <button>SHIRTS</button>
+        <button>PANTS</button>
+        <button>SHORTS</button>
+        <button>SKIRTS</button>
+    </div>
+    <br>
+    <div id="shop2">
+        <button>JEANS</button>
+        <button>JUMPSUITS</button>
+        <button>SWEATERS</button>
+        <button>SOCKS</button>
+    </div>
+   </div>
+   <br>
+   <div style="display: flex;justify-content: space-evenly;">
+    <img src="img/season sale.png" alt="">
+   </div>
+   <br>
+   <h2>FESTIVALS OF INDIA</h2>
+   <div style="display: flex;justify-content: space-evenly;">
+    <span><video src="" alt="festivals of india" height="300px" width="500px" style="background-color: rgb(210, 200, 200);"></video></span>
+    <span><video src="" alt="festivals of india" height="300px" width="500px" style="background-color: rgb(210, 200, 200);"></video></span>
+   </div>
+   <br>
+   <h2>BEST SELLERS</h2>
+   <br>
+
+   <div class="display-area">
+    <div class="cards-wrapper">
+      
+      <div class="card"><img src="img/bs1.png" alt=""></div>
+      <div class="card"><img src="img/bs2.png" alt=""></div>  
+      <div class="card"><img src="img/bs3.png" alt=""></div>
+      <div class="card"><img src="img/bs4.png" alt=""></div>
+
+      <div class="card"><img src="img/bs1.png" alt=""></div>
+      <div class="card"><img src="img/bs2.png" alt=""></div>  
+      <div class="card"><img src="img/bs3.png" alt=""></div>
+      <div class="card"><img src="img/bs4.png" alt=""></div>
+    </div> 
+  </div>
+  
+  <div class="dots-wrapper">
+    <button class="dot active"></button>
+    <button class="dot"></button>
+    
+  </div>
+  
+    <br>
+    <div class="p-view">
+     <button class="view">View All</button>
+    </div>
+    <br>
+   <div style="display: flex;justify-content: space-evenly;">
+    <img src="img/clock.png" alt="">
+   </div>
+   <br>
+   <h2>NEW ARRIVALS</h2>
+   <div class="display-area">
+    <div class="cards-wrapper">
+      
+      <div class="card"><img src="img/na1.png" alt=""></div>
+      <div class="card"><img src="img/na2.png" alt=""></div>  
+      <div class="card"><img src="img/na3.png" alt=""></div>
+      <div class="card"><img src="img/na4.png" alt=""></div>
+
+      <div class="card"><img src="img/na1.png" alt=""></div>
+      <div class="card"><img src="img/na2.png" alt=""></div>  
+      <div class="card"><img src="img/na3.png" alt=""></div>
+      <div class="card"><img src="img/na4.png" alt=""></div>
+    </div> 
+  </div>
+  
+  <div class="dots-wrapper">
+    <button class="dot active"></button>
+    <button class="dot"></button>
+    
+</div>
+<br>
+<div class="p-view">
+ <button class="view">View All</button>
+</div>
+<br>
+<h2>LAST CHANCE</h2>
+<div class="display-area">
+    <div class="cards-wrapper">
+      
+      <div class="card"><img src="img/lc1.png" alt=""></div>
+      <div class="card"><img src="img/lc2.png" alt=""></div>  
+      <div class="card"><img src="img/lc3.png" alt=""></div>
+      <div class="card"><img src="img/lc4.png" alt=""></div>
+
+      <div class="card"><img src="img/lc1.png" alt=""></div>
+      <div class="card"><img src="img/lc2.png" alt=""></div>  
+      <div class="card"><img src="img/lc3.png" alt=""></div>
+      <div class="card"><img src="img/lc4.png" alt=""></div>
+    </div> 
+  </div>
+  
+  <div class="dots-wrapper">
+    <button class="dot active"></button>
+    <button class="dot"></button>
+    
+</div>
+<br>
+<div class="p-view">
+ <button class="view">View All</button>
+</div>
+<br>
+<h2>LATEST COLLECTION</h2>
+<br>
+<div style="display: flex;justify-content: space-evenly;">
+    <span><img src="img/lateset1.png" alt=""></span>
+    <span><img src="img/latest2.png" alt=""></span>
+</div>
+<br>
+<h2>SHOP INSTAGRAM</h2>
+<div class="display-area">
+    <div class="cards-wrapper">
+      
+      <div class="card" style="height: 234px;"><img src="img/i1.png" alt=""></div>
+      <div class="card" style="height: 234px;"><img src="img/i2.png" alt=""></div>  
+      <div class="card" style="height: 234px;"><img src="img/i3.png" alt=""></div>
+      <div class="card" style="height: 234px;"><img src="img/i4.png" alt=""></div>
+
+      <div class="card" style="height: 234px;"><img src="img/i1.png" alt=""></div>
+      <div class="card" style="height: 234px;"><img src="img/i2.png" alt=""></div>  
+      <div class="card" style="height: 234px;"><img src="img/i3.png" alt=""></div>
+      <div class="card" style="height: 234px;"><img src="img/i4.png" alt=""></div>
+    </div> 
+  </div>
+  
+  <div class="dots-wrapper">
+    <button class="dot active"></button>
+    <button class="dot"></button>
+    
+</div>
+
+  <script>
+    // In HTML, .display-area has the width of 4 cards = 880px. Each card is 200px width and margin set to 10px.
+// .display-area has a .cards-wrapper which contains all the cards. .cards-wrapper is set to display flex.
+// .display-area has overflow hidden to hide the portion of cards-wrapper which extends beyond the container's width.
+
+const wrapper = document.querySelector('.cards-wrapper');
+// console.log(wrapper.clientWidth);
+
+// grab the dots
+const dots = document.querySelectorAll('.dot');
+// the default active dot num which is array[0]
+let activeDotNum = 0;
+
+dots.forEach((dot, idx) => {  
+//   number each dot according to array index
+  dot.setAttribute('data-num', idx);
+  
+//   add a click event listener to each dot
+  dot.addEventListener('click', (e) => {
+    
+    let clickedDotNum = e.target.dataset.num;
+    // console.log(clickedDotNum);
+//     if the dot clicked is already active, then do nothing
+    if(clickedDotNum == activeDotNum) {
+      // console.log('active');
+      return;
+    }
+    else {
+      // console.log('not active');
+      // shift the wrapper
+      let displayArea = wrapper.parentElement.clientWidth;
+      // let pixels = -wrapper.clientWidth * clickedDotNum;
+      let pixels = -displayArea * clickedDotNum
+      wrapper.style.transform = 'translateX('+ pixels + 'px)';
+//       remove the active class from the active dot
+      dots[activeDotNum].classList.remove('active');
+//       add the active class to the clicked dot
+      dots[clickedDotNum].classList.add('active');
+//       now set the active dot number to the clicked dot;
+      activeDotNum = clickedDotNum;
+    }
+    
+  });
+});
+  </script>
+    <footer id="footer">
+        <div id="footer_help">
+            <span class="space">
+                <div id="footer_logo">
+
+                </div>
+                <div>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad, eius! Voluptas inventore id ea sint
+
+                </div>
+            </span>
+            <span class="space">
+                <h3>NEED HELP?</h3>
+
+                <p>Support Center</p>
+                <p>Terms and conditions</p>
+                <p>Shipping Policy</p>
+                <p>Returns and Exchange</p>
+            </span>
+            <span class="space">
+                <h3>About Us</h3>
+
+                <p>About Us</p>
+                <p>Mens</p>
+                <p>Womens</p>
+                <p>Kids</p>
+                <p>Accessories</p>
+                <p>Footwear</p>
+
+            </span>
+            <span class="space">
+                <h3>Contact Us</h3>
+
+                <p>customercars@xyz.com</p>
+                <p>+91 00000 00000</p>
+                <br>
+                <h4>Stay in touch with us</h4>
+                <p>
+                    leave us your email to get the latest updates!
+                </p>
+                <form>
+                    <input type="email" name="email" placeholder="Your Email" style="width:125px">
+                    <button id="subscribe">Subscribe</button>
+                </form>
+            </span>
+        </div>
+        <hr>
+        <div id="footer_social">
+            <h4>Connect with Us</h4>
+            <img src="img/facebook.png" alt="facebook" width="50px" height="40px">
+            <img src="img/instagram.jpg" alt="instagram" width="50px" height="50px" style="margin-left: 10px;">
+            <img src="img/linkedin1.png" alt="linkedin" width="30px" height="30px" style="margin-left: 10px;">
+            <img src="img/whatsapp.png" alt="whatsapp" width="30px" height="30px" style="margin-left: 30px;">
+        </div>
+    </footer>
+
+    
+
+</body>
+
+</html>

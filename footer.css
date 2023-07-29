@@ -1,0 +1,43 @@
+#footer {
+    background-color: black;
+    color: white;
+    width: 100%;
+}
+
+#footer_logo {
+    margin-top: 25px;
+    margin-bottom: 20px;
+    width: 45%;
+    height: 45px;
+    background-color: rgb(58, 56, 56);
+}
+
+#footer_help {
+    display: flex;
+    justify-content: space-around;
+}
+
+.space {
+    width: 25%;
+    padding: 2px;
+    margin: 5px;
+}
+
+h3 {
+    color: lightskyblue;
+}
+
+h4 {
+    color: lightskyblue;
+}
+
+#subscribe {
+    color: lightskyblue;
+    background-color: black;
+    border-color: lightskyblue;
+}
+
+#footer_social {
+    text-align: center;
+
+}
